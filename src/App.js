@@ -1,16 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
+import HeaderFunction from './screens/header/Header';
+import StudySpaceContent from './screens/components/InfinityStudySpace';
+import TechContent from './screens/components/InfinityTechnologies';
+import { useState } from 'react';
 
 function App() {
+  const [activeTab, setActiveTab] = useState('study');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         Infinity Study Space / Infinity Technologies
-        </p>
-     
-      </header>
+    <div className="app-container">
+      <div>
+      <HeaderFunction/>
+      </div>
+
+      <div>
+  <nav className="tab-bar">
+    <button
+      className={`tab-button ${activeTab === 'study' ? 'active' : ''}`}
+      onClick={() => setActiveTab('study')}
+    >
+      Infinity Study Space
+    </button>
+    <button
+      className={`tab-button ${activeTab === 'tech' ? 'active' : ''}`}
+      onClick={() => setActiveTab('tech')}
+    >
+      Infinity Technologies
+    </button>
+  </nav>
+</div>
+
+    {/* Content */}
+    <div >
+    <main className="content">
+      {activeTab === 'study' ? <StudySpaceContent /> : <TechContent />}
+    </main>
     </div>
+  </div>
   );
 }
 

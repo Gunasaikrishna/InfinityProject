@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* General Layout */
+.app-container {
   min-height: 100vh;
+  
+  font-family: sans-serif;
+  background-color: #b9c4db;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 16px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+
+}
+
+.title-wrapper {
+  display: flex;
+  height: 5vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background: linear-gradient(to right, #a2bcd4, #f6afd2)
+
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0;
+}
+
+
+/* Tabs */
+.tab-bar {
+  background-color: #dbeafe;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50px; /* fixed height for both mobile and desktop */
+  margin: 0;
+  padding: 0;
+}
+
+.tab-button {
+  flex: 1; /* Split evenly: 50% width */
+  text-align: center;
+  padding: 0;
+  font-weight: 500;
+  background-color: white;
+  color: #2563eb;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 100%;
+}
+
+.tab-button.active {
+  background-color: #a8c8e6;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Optional: Improve font size on small screens */
+@media (max-width: 600px) {
+  .tab-button {
+    font-size: 14px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* Content */
+.content {
+  flex-grow: 1;
+  background-color: white;
+  padding: 20px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tab-content-full {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center */
+  align-items: center;     /* horizontally center */
+  text-align: center;
+}
+
+/* Content Text */
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d4ed8;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #374151;
+  line-height: 1.6;
+  max-width: 90%;
+}
+
+/* mobile view css */
+@media (max-width: 600px) {
+  .title {
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .tab-button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 18px;
   }
 }

@@ -1,11 +1,16 @@
 /* General Layout */
 .app-container {
   min-height: 100vh;
-  
+  display: flex;
+  flex-direction: column;
   font-family: sans-serif;
   background-color: #b9c4db;
   margin: 0;
+  flex: 1;
 }
+
+
+
 
 /* Header */
 .header {
@@ -22,29 +27,16 @@
   align-items: center;
   gap: 12px;
 }
-
-.logo {
-  height: 40px;
-  width: 40px;
-  object-fit: contain;
-
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  margin-top: auto; /* Push footer to bottom */
 }
 
-.title-wrapper {
-  display: flex;
-  height: 5vh;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, #a2bcd4, #f6afd2)
 
-}
-
-.title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #1f2937;
-  margin: 0;
-}
 
 
 /* Tabs */
@@ -65,7 +57,7 @@
   padding: 0;
   font-weight: 500;
   background-color: white;
-  color: #2563eb;
+  color: #000000;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -74,17 +66,20 @@
   align-items: center;
   font-size: 16px;
   height: 100%;
+  font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .tab-button.active {
   background-color: #a8c8e6;
   color: white;
+  font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Optional: Improve font size on small screens */
 @media (max-width: 600px) {
   .tab-button {
     font-size: 14px;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 }
 
@@ -94,7 +89,6 @@
 .content {
   flex-grow: 1;
   background-color: white;
-  padding: 20px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   display: flex;
@@ -102,14 +96,7 @@
 }
 
 
-.tab-content-full {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertically center */
-  align-items: center;     /* horizontally center */
-  text-align: center;
-}
+
 
 /* Content Text */
 .section-title {
@@ -117,6 +104,7 @@
   font-weight: 600;
   color: #1d4ed8;
   margin-bottom: 12px;
+  font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .description {

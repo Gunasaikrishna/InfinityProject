@@ -1,0 +1,112 @@
+.tab-content-full {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertically center */
+    align-items: center;     /* horizontally center */
+    text-align: center;
+  }
+  .section-header {
+    background-color: #f1e9f575;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start; /* align content to the right */
+    align-items: center;
+
+  }
+  
+  
+  .section-title {
+    margin-left: 18px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5f5757;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  .Services-title{
+    margin-left: 48px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    color: #5f5757;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .section-divider {
+    border-bottom: 0.1px solid gray;
+    width: 100%;
+  }
+  .section-content{
+    font-size: 22px;
+    color: #374151;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+  }
+  .section-description {
+    font-size: 16px;
+    color: #8e8989;
+    margin-top: 1px;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+   
+  }
+  
+  .creative-img {
+    flex: 1 1 45%; /* allows each image to take ~45% of the container */
+    max-width: 45%; /* max width to ensure side-by-side */
+    height: auto;
+    object-fit: cover;
+    border-radius: 1px;
+
+  }
+  .service-div{
+    background-color: aliceblue;
+    margin-top: -20px;
+  }
+  .service-divider {
+    border-bottom: 0.1px solid rgb(151, 147, 147);
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media (max-width: 700px) {
+    .section-header {
+      height: 36px;
+  
+    }
+    .creative-img {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin: 10px;
+    }
+    .section-title {
+      font-size: 16px;
+      
+    }
+  
+    .section-content {
+      font-size: 18px;
+
+    }
+  
+    .section-description {
+      font-size: 14px;
+      padding: 0 15px;
+      text-align: center;
+    }
+  
+    .tab-content-full {
+     
+    }
+  }
+  

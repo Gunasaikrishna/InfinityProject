@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/InfinityProject/static/css/main.eb8bfdde.css",
-    "main.js": "/InfinityProject/static/js/main.068312ac.js",
+    "main.css": "/InfinityProject/static/css/main.5390f1c3.css",
+    "main.js": "/InfinityProject/static/js/main.c891ef8b.js",
     "static/js/453.943ea0a6.chunk.js": "/InfinityProject/static/js/453.943ea0a6.chunk.js",
+    "static/media/logo2.png": "/InfinityProject/static/media/logo2.fccf4b5267219ad7affd.png",
+    "static/media/messageIcon.png": "/InfinityProject/static/media/messageIcon.64f0c1086a9ae37c40a6.png",
+    "static/media/serviceImage1.jpg": "/InfinityProject/static/media/serviceImage1.971eaf3fbd9e182ee2bd.jpg",
     "static/media/webDevelopmentImage.jpg": "/InfinityProject/static/media/webDevelopmentImage.d454e69dc4bd91aac2e0.jpg",
+    "static/media/article3.png": "/InfinityProject/static/media/article3.7899416ff560c99130f4.png",
     "static/media/creativeImage2.jpg": "/InfinityProject/static/media/creativeImage2.0b8e7b609520ed0f66bd.jpg",
+    "static/media/article1.jpeg": "/InfinityProject/static/media/article1.c5a72648502893e242e0.jpeg",
     "static/media/creativeImage.jpg": "/InfinityProject/static/media/creativeImage.38d8d04df4e1cafbdc74.jpg",
-    "static/media/InfinityLogo.jpg": "/InfinityProject/static/media/InfinityLogo.ab0ff293fe8409f353d0.jpg",
+    "static/media/serviceImage3.jpg": "/InfinityProject/static/media/serviceImage3.0bb3aacdb768f07e4077.jpg",
     "static/media/ReDesignImage.jpg": "/InfinityProject/static/media/ReDesignImage.b27ce7c64e24457efcef.jpg",
+    "static/media/article2.jpg": "/InfinityProject/static/media/article2.fdc2cb3d465091ef305a.jpg",
+    "static/media/servicesImage2.jpeg": "/InfinityProject/static/media/servicesImage2.3db3fa8d804034a4ce8b.jpeg",
     "static/media/appDevImage.png.webp": "/InfinityProject/static/media/appDevImage.png.929171844c3b7094384e.webp",
     "static/media/logo.svg": "/InfinityProject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/InfinityProject/index.html",
-    "main.eb8bfdde.css.map": "/InfinityProject/static/css/main.eb8bfdde.css.map",
-    "main.068312ac.js.map": "/InfinityProject/static/js/main.068312ac.js.map",
+    "main.5390f1c3.css.map": "/InfinityProject/static/css/main.5390f1c3.css.map",
+    "main.c891ef8b.js.map": "/InfinityProject/static/js/main.c891ef8b.js.map",
     "453.943ea0a6.chunk.js.map": "/InfinityProject/static/js/453.943ea0a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb8bfdde.css",
-    "static/js/main.068312ac.js"
+    "static/css/main.5390f1c3.css",
+    "static/js/main.c891ef8b.js"
   ]
 }

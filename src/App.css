@@ -65,8 +65,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
   height: 100%;
+  font-weight: 500;
   font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 

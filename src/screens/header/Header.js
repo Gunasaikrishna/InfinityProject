@@ -1,15 +1,13 @@
 import React from "react";
 import './Header.css';
-import Logo from '../../assets/InfinityLogo.jpg';
+import Logo from '../../assets/logo2.png';
 
 function HeaderFunction() {
   return (
-    <div className="App">
-      <div className="title-wrapper">
-        <div style={{ display: 'flex', alignItems: 'center', marginLeft: 50 }}>
-          <img src={Logo} alt="Logo" className="logo" />
-          <h1 className="title">Infinity Groups</h1>
-        </div>
+    <div className="title-wrapper">
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <img src={Logo} alt="Logo" className="logo" />
+        <h1 className="title">Infinity Groups</h1>
       </div>
     </div>
   );

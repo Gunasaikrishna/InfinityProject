@@ -49,6 +49,7 @@
   height: 50px; /* fixed height for both mobile and desktop */
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 }
 
 .tab-button {
@@ -93,6 +94,7 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+ 
 }
 
 

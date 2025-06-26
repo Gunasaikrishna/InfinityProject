@@ -1,7 +1,7 @@
 {
   "name": "infinityproject",
   "version": "0.1.0",
-  "homepage": " https:/gunasaikrishna.github.io/InfinityProject.git",
+  "homepage": " https:/gunasaikrishna.github.io/InfinityProject",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

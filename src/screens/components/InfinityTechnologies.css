@@ -132,18 +132,20 @@
   }
   
   .book-button {
-    background-color: #2563eb;
+    background-color: #1cc045;
     color: white;
     padding: 8px 16px;
     border: none;
     border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
     transition: background-color 0.2s ease;
   }
   
   .book-button:hover {
-    background-color: #1d4ed8;
+    background-color: #07f78b;
   }
   .article-div {
     background-color: rgb(220, 232, 242);
@@ -234,7 +236,7 @@
     }
   
     .book-button {
-      width: 100%;
+      width: 70%;
       margin-top: 8px;
     }
   
@@ -254,9 +256,8 @@
       flex: 1 1 100%;
     }
     .card-image {
-      width: 400px;
-      height: 300px;
-      
+      width: 300px;
+      height: 200px;
       margin-bottom: 12px;
     }
   }

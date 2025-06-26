@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gunasaikrishna/InfinityProject.git/static/css/main.d47d994f.css",
+    "main.js": "/Gunasaikrishna/InfinityProject.git/static/js/main.290de588.js",
+    "static/js/453.943ea0a6.chunk.js": "/Gunasaikrishna/InfinityProject.git/static/js/453.943ea0a6.chunk.js",
+    "static/media/webDevelopmentImage.jpg": "/Gunasaikrishna/InfinityProject.git/static/media/webDevelopmentImage.d454e69dc4bd91aac2e0.jpg",
+    "static/media/creativeImage2.jpg": "/Gunasaikrishna/InfinityProject.git/static/media/creativeImage2.0b8e7b609520ed0f66bd.jpg",
+    "static/media/creativeImage.jpg": "/Gunasaikrishna/InfinityProject.git/static/media/creativeImage.38d8d04df4e1cafbdc74.jpg",
+    "static/media/InfinityLogo.jpg": "/Gunasaikrishna/InfinityProject.git/static/media/InfinityLogo.ab0ff293fe8409f353d0.jpg",
+    "static/media/ReDesignImage.jpg": "/Gunasaikrishna/InfinityProject.git/static/media/ReDesignImage.b27ce7c64e24457efcef.jpg",
+    "static/media/appDevImage.png.webp": "/Gunasaikrishna/InfinityProject.git/static/media/appDevImage.png.929171844c3b7094384e.webp",
+    "static/media/logo.svg": "/Gunasaikrishna/InfinityProject.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Gunasaikrishna/InfinityProject.git/index.html",
+    "main.d47d994f.css.map": "/Gunasaikrishna/InfinityProject.git/static/css/main.d47d994f.css.map",
+    "main.290de588.js.map": "/Gunasaikrishna/InfinityProject.git/static/js/main.290de588.js.map",
+    "453.943ea0a6.chunk.js.map": "/Gunasaikrishna/InfinityProject.git/static/js/453.943ea0a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d47d994f.css",
+    "static/js/main.290de588.js"
+  ]
+}

@@ -33,9 +33,10 @@
 /* Responsive styling for mobile */
 @media (max-width: 600px) {
   .title-wrapper {
-    height: auto;
+    height: 30px;
     padding: 10px 12px;
   }
+  
 
   .logo {
     height: 50px;

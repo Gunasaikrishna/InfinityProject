@@ -5,6 +5,7 @@ import StudySpaceContent from './screens/components/InfinityStudySpace';
 import TechContent from './screens/components/InfinityTechnologies';
 import { useState } from 'react';
 import Footer from './screens/footer/Footer';
+import ChatWidget from './screens/ChatWidget/ChatWidget';
 
  
 function App() {
@@ -39,7 +40,10 @@ function App() {
       {activeTab === 'study' ? <StudySpaceContent /> : <TechContent />}
     </main>
     </div>
-
+    <div style={{backgroundColor:'red'}}>
+    <ChatWidget />
+    </div>
+  
     <div>
       <Footer/>
       </div>

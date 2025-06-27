@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./InfinityTechnologies.css";
 import CreativeImage1 from "../../assets/creativeImage.jpg";
 import CreativeImage2 from "../../assets/creativeImage2.jpg";
@@ -19,6 +19,27 @@ import ChatWidget from '../ChatWidget/ChatWidget';
 
 
 function TechContent() {
+
+
+    const [index, setIndex] = useState(0);
+
+  const next = () => setIndex((prev) => (prev + 1) % testimonials.length);
+  const prev = () =>
+    setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+const testimonials = [
+  {
+    message: `Infinity Technologies not only met but exceeded our web development needs. Their dedication to client satisfaction and project success is unmatched.`,
+    name: 'Stephen',
+  },
+  {
+    message: `Working with Infinity was a game changer. Their team delivered on time and beyond expectations.`,
+    name: 'Charan ',
+  },
+  {
+    message: `Professional, responsive, and skilled – Infinity Technologies helped scale our digital presence tremendously.`,
+    name: 'Ravi Kumar',
+  },
+];
   return (
     <div className="tab-content-full">
       <div className="section-header">
@@ -197,7 +218,38 @@ function TechContent() {
           </div>
         </div>
       </div>
-      <ChatWidget />
+
+      <div className="client-div">
+  <div className="review1">
+    <h1>Client Testimonials</h1>
+    <h5>
+      Infinity Technologies transformed our outdated website<br /> into a modern,
+      user-friendly platform. Their attention <br />to detail and creativity exceeded
+      our expectations.
+    </h5>
+  </div>
+
+  <div className="review2">
+      <button className="arrow left" onClick={prev}>
+        &#8249;
+      </button>
+
+      <div className="testimonial-content">
+       
+        <p className="clientMessage">{testimonials[index].message}</p>
+        <p className="client-name">{testimonials[index].name}</p>
+      </div>
+
+      <button className="arrow right" onClick={next}>
+        &#8250;
+      </button>
+    </div>
+ </div>
+
+ <div>
+
+ </div>
+
     </div>
   );
 }

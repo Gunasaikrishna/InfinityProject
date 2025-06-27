@@ -5,7 +5,6 @@
     z-index: 999;
     font-family: sans-serif;
   }
-  
   .chat-toggle {
     background-color: #0a0a0a;
     color: white;
@@ -61,11 +60,12 @@
   }
   
   /* ✅ Mobile Styling */
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     .chat-container {
-      right: 10px;
-      bottom: 10px;
-    }
+        right: 10px;
+        bottom: 10px;
+        z-index: 9999;
+      }
   
     .chat-toggle {
       padding: 10px 14px;
@@ -97,12 +97,6 @@
       width: 20px;
       height: 20px;
     }
-    .chat-container {
-        position: fixed;
-        right: 30px;
-        bottom: 40px;
-        z-index: 999;
-        font-family: sans-serif;
-      }
+    
   }
   
